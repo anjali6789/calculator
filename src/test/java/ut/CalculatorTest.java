@@ -43,6 +43,9 @@ public class CalculatorTest {
 	public void testSub2() {
 		assertEquals(0.0, cl.doSub(1.0, 1.0), 0.0);
 	}
-	
+	@Test
+	public void testDiv() {
+		assertTrue(cl.doDiv(8, 2) == 4);
+	}
 
 }
