@@ -48,4 +48,4 @@ public class CalculatorTest {
 		assertTrue(cl.doDiv(8, 2) == 4);
 	}
 
-}convert them into assertEquals
+}
