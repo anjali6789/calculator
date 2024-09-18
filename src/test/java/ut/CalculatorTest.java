@@ -31,7 +31,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testSub1() {
-		assertTrue(cl.doSub(1, 1) == 1);
+		assertTrue(cl.doSub(1, 1) == 0);
 	}
 
 	@Test
